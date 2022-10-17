@@ -3,7 +3,7 @@ import streamlit as st
 from utils import head, body, key_gender, key_workex
 
 import pickle
-model = pickle.load(open('../model/model_student_placement_nb.pkl', 'rb'))
+model = pickle.load(open('model/model_student_placement_nb.pkl', 'rb'))
 
 gender, workex, etest_p = head()
 
